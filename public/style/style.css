@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+	font-weight: normal;
+	border: none;
+	font-family: Arial;
+}
+
+body img{
+	max-width: 100%;
+}
+
+main{
+	width: 100%;
+	padding: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+main header{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 50px; 
+}
+
+main header h1{
+	color: #333;
+	margin-bottom: 20px;
+}
+
+
+main .actions{
+	width: 100%;
+}
+
+main .actions a{
+	padding: 12px;
+	background-color: #0a70c4;
+	color: #fff;
+	border-radius: 5px;
+}
+
+main table{
+	width: 100%;
+	overflow: hidden;
+	border-collapse: collapse;
+}
+
+main table tr th, td{
+	padding: 12px;
+	text-align: center;
+}
+
+main table tr th{
+	background-color: #333;
+	color: #fff;
+}
+
+main table tr td{
+	background-color: #666;
+	color: #fff;
+}
+
+main table tr td form{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main table tr td form button{
+	padding: 12px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin: 0px 5px;
+	background-color: #333;
+	cursor: pointer;
+}
+
+main .form_create{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main .form_create form{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+main .form_create form .line{
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+main .form_create form .line label{
+	margin-bottom: 10px;
+}
+
+main .form_create form .line input{
+	width: 100%;
+	padding: 12px;
+	border-radius: 5px;
+	background-color: #f4f4f4;
+}
+
+main .form_create form input[type=submit]{
+	padding: 12px;
+	background-color: #0a70c4;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
